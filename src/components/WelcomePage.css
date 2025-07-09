@@ -1,0 +1,110 @@
+.welcome-container {
+  max-width: 420px;
+  margin: 50px auto;
+  padding: 30px 30px 40px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  color: #2c3e50;
+  font-family: 'Poppins', sans-serif;
+}
+
+.welcome-container h1 {
+  margin-bottom: 12px;
+  font-size: 1.9rem;
+}
+
+.welcome-container p {
+  font-size: 1.05rem;
+  margin-bottom: 24px;
+  color: #556677;
+}
+
+.welcome-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  text-align: left;
+}
+
+.welcome-form label {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #34495e;
+  font-size: 0.95rem;
+}
+
+.welcome-form input,
+.welcome-form select {
+  padding: 10px 14px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1.5px solid #ccc;
+  transition: border-color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.welcome-form input:focus,
+.welcome-form select:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 8px rgba(74, 144, 226, 0.3);
+}
+
+.button {
+  margin-top: 20px;
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background: linear-gradient(135deg, #6a8cff, #4a90e2);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(74, 144, 226, 0.4);
+  transition: all 0.3s ease;
+  user-select: none;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.button:hover {
+  background: linear-gradient(135deg, #4a90e2, #357abd);
+  box-shadow: 0 12px 28px rgba(53, 122, 189, 0.6);
+  transform: translateY(-2px);
+}
+
+.button:active {
+  box-shadow: 0 6px 15px rgba(53, 122, 189, 0.7);
+  transform: translateY(1px);
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.7);
+}
+
+.button:disabled {
+  background: #aac0ff;
+  box-shadow: none;
+  color: #e0e0e0;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.icon {
+  color: white;
+  min-width: 20px;
+  min-height: 20px;
+  margin-right: 8px;
+  transition: transform 0.3s ease;
+}
+
+.button:hover .icon {
+  transform: translateX(5px);
+}
