@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/calorie-chef-app/static/css/main.e8de19c2.css",
-    "main.js": "/calorie-chef-app/static/js/main.96748857.js",
+    "main.js": "/calorie-chef-app/static/js/main.ab357a71.js",
     "index.html": "/calorie-chef-app/index.html",
     "main.e8de19c2.css.map": "/calorie-chef-app/static/css/main.e8de19c2.css.map",
-    "main.96748857.js.map": "/calorie-chef-app/static/js/main.96748857.js.map"
+    "main.ab357a71.js.map": "/calorie-chef-app/static/js/main.ab357a71.js.map"
   },
   "entrypoints": [
     "static/css/main.e8de19c2.css",
-    "static/js/main.96748857.js"
+    "static/js/main.ab357a71.js"
   ]
 }
