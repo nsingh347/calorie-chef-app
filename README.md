@@ -16,8 +16,6 @@ Track your calories, plan your meals, and achieve your health goals — all in o
 - 📊 **Progress Tracker** – Visualize how close you are to your daily calorie goals
 - 💡 **Wellness Tips** – Get rotating health and mindfulness tips
 - 📥 **Save Logs** – Export your food log as a text file
-- 🧑‍🍳 **Modern UI** – Clean white-black-green theme inspired by HealthifyMe
-
 ---
 
 ## 🛠️ Tech Stack
