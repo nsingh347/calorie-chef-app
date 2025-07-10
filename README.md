@@ -1,40 +1,79 @@
-# Calorie Chef
+# 🥗 Calorie Chef 🍽️
 
-Calorie Chef is a simple and interactive diet planner and food logger app designed to help users track their meals, calories, and nutritional intake.  
-Whether you want to manage your weight, maintain a balanced diet, or discover new meal ideas, Calorie Chef has got you covered.
+Welcome to **Calorie Chef**, your personal nutrition companion powered by ReactJS!  
+Track your calories, plan your meals, and achieve your health goals — all in one beautiful, interactive dashboard.
 
----
-
-## Features
-
-- Add, log, and track your meals and snacks easily
-- Nutritional information including calories, proteins, carbs, and fats for each food item
-- Predefined meal suggestions for breakfast, lunch, snacks, and dinner
-- User-friendly interface with React for smooth interactions
-- Responsive design for use on desktop and mobile devices
+## 🌟 Live Demo
+🔗 [Click here to view the app](https://nsingh347.github.io/calorie-chef-app/)
 
 ---
 
-## Technologies Used
+## 📸 Features
 
-- React (with TypeScript)
-- Vite for build tooling and dev server
-- ESLint for code quality
-- Tailwind CSS (optional, if included)
-- Other npm dependencies as listed in package.json
+- ✅ **Profile Summary** – Register your age, height, weight, activity level, and goals
+- 🍽️ **Meal Planner** – Generates dynamic vegetarian/non-vegetarian plans based on your preferences
+- 📝 **Food Logger** – Log your food intake with calorie tracking
+- 📊 **Progress Tracker** – Visualize how close you are to your daily calorie goals
+- 💡 **Wellness Tips** – Get rotating health and mindfulness tips
+- 📥 **Save Logs** – Export your food log as a text file
+- 🧑‍🍳 **Modern UI** – Clean white-black-green theme inspired by HealthifyMe
 
 ---
 
-## Getting Started
+## 🛠️ Tech Stack
 
-### Prerequisites
+- ⚛️ ReactJS (with functional components & hooks)
+- 💅 Custom CSS-in-JS styling
+- 📦 Deployed with GitHub Pages
+- 📁 Local storage for persistence
 
-- Node.js (version 16+ recommended)
-- npm or yarn package manager
+---
 
-### Installation
+## 🚀 Getting Started Locally
 
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/your-username/calorie-chef-app.git
-   cd calorie-chef-app
+```bash
+git clone https://github.com/nsingh347/calorie-chef-app.git
+cd calorie-chef-app
+npm install
+npm start
+📦 Deployment
+Deployed using gh-pages:
+
+bash
+Copy
+Edit
+npm run build
+npm run deploy
+📁 Folder Structure
+css
+Copy
+Edit
+📦src
+ ┣ 📂components
+ ┃ ┣ 📄AppContent.js
+ ┃ ┣ 📄Header.js
+ ┃ ┣ 📄MealPlanner.js
+ ┃ ┣ 📄FoodLogger.js
+ ┃ ┣ 📄ProgressTracker.js
+ ┃ ┗ 📄WellnessTips.js
+ ┣ 📂data
+ ┃ ┗ 📄foodDB.js
+ ┣ 📂utils
+ ┃ ┗ 📄fileSaver.js
+ ┣ 📄App.js
+ ┗ 📄index.js
+👤 Author
+Nishant Singh
+📧 nsingh347@gmail.com
+
+🧑‍💻 Contributions
+If you'd like to contribute:
+
+Fork the repo
+
+Create a new branch
+
+Make your changes
+
+Submit a pull request
+
